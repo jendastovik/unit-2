@@ -14,8 +14,13 @@ def procedure(n, m, s):
         Xs.append(x)
         Ys.append(yx)
         out += f"\n/{str(x).center(8)}/ {str(yx).center(8)}/"
-    return Xs, Ys
-x, y = procedure(5, 3, 2)
+    return out, Xs, Ys
+out, x, y = procedure(5, 3, 2)
+print(out)
+
+plt.style.use('ggplot')
+plt.xlabel("x")
+plt.ylabel("y(x)")
 plt.plot(x, y)
 plt.show()
 ```
@@ -23,5 +28,3 @@ plt.show()
 ## Output
 ![](/assets/qx.png)
 
-## Flowchart
-![](/flowCharts/qx.png)

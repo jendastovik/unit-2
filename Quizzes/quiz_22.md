@@ -1,4 +1,4 @@
-# Quiz X
+# Quiz 22
 ## Python code
 ```python
 from matplotlib import pyplot as plt
@@ -12,15 +12,14 @@ def graphFun():
     return Xs, Ys
 
 Xs, Ys = graphFun()
+plt.style.use('ggplot')
 plt.plot(Xs, Ys)
-plt.xlabel("X")
+plt.xlabel("x")
 yLabel = "f(x): 2(x + 5)^2"
 plt.ylabel(yLabel)
 plt.show()
 ```
 
 ## Output
-![](/assets/qx.png)
+![](/assets/q22.png)
 
-## Flowchart
-![](/flowCharts/qx.png)

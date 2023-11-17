@@ -21,14 +21,15 @@ temp_future = m*45 + b
 print(f"Prediction linear model {temp_future:.2f} C = {m:.2f}(45min) + {b:.2f}")
 
 #quiz
-h = [57,56,57,56,55,55,54,54,54,53,53,54,53,53,52,52,51,51,51,50,50,49,50,49,49,48,49,49,48,48,48,49]
+h = [57.0, 56.0, 57.0, 56.0, 55.0, 55.0, 54.0, 54.0, 54.0, 53.0, 53.0, 54.0, 53.0, 53.0, 52.0, 52.0, 51.0, 51.0, 51.0, 50.0, 50.0, 49.0, 50.0, 49.0, 49.0, 48.0, 49.0, 49.0, 48.0, 48.0, 48.0, 49.0]
 t = [t*10 for t in range(len(h))]
 
 m,b = np.polyfit(t,h,1)
 print(f"Linear model h(t) = {m:.2f}t + {b:.2f}")
 plt.scatter(t,h, color="blue")
 plt.xlabel("Time (min)")
-plt.ylabel("Humdiity (%)")
+plt.ylabel("Humdity (%)")
+plt.title(f"Linear model h(t) = {m:.2f}t + {b:.2f}")
 t_model = [t*10 for t in range(len(h))]
 h_model = [m*t + b for t in t_model]
 plt.plot(t_model, h_model, color="black")

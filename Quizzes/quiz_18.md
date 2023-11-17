@@ -35,5 +35,3 @@ def print_truth_table(letters, collums):
 ## Output
 ![](/assets/qx.png)
 
-## Flowchart
-![](/flowCharts/qx.png)

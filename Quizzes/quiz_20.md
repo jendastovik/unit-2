@@ -14,6 +14,3 @@ def procedure(n, m, s):
 
 ## Output
 ![](/assets/qx.png)
-
-## Flowchart
-![](/flowCharts/qx.png)
