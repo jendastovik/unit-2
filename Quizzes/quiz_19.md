@@ -1,4 +1,4 @@
-Quiz 19
+# Quiz 19
 ## Python code
 ```python
 def equatation():
@@ -16,5 +16,5 @@ def equatation():
 ```
 
 ## Output
-![](/assets/qx.png)
+![](/assets/q19.png)
 

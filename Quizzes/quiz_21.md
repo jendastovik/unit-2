@@ -26,5 +26,5 @@ plt.show()
 ```
 
 ## Output
-![](/assets/qx.png)
+![](/assets/q21.png)
 

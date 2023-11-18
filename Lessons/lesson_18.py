@@ -11,7 +11,7 @@ def equatation():
         out += (f"| {int(A[n])} | {int(B[n])} | {int(C[n])} |         {int(res[n])}         |\n")
     return out
 
-print(equatation())
+#print(equatation())
 
 def truth_table():
     out = ""
@@ -22,7 +22,7 @@ def truth_table():
     for n in range(len(A)):
         out += (f"|  {int(A[n])}  |  {int(B[n])}  |  {int(C[n])}  |\n")
     return out
-#print(truth_table())
+print(truth_table())
 
 def truth_table_sized(n):
     letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -45,4 +45,4 @@ def print_truth_table(letters, collums):
     
 
 letters, collums = truth_table_sized(5)
-#print_truth_table(letters, collums)
+print_truth_table(letters, collums)
