@@ -36,6 +36,6 @@ def print_truth_table(letters, collums):
 ### truth_table()
 ![](/assets/q18a.png)
 
-### truth_table_sized(5)
+### print_truth_table(truth_table_sized(5))
 ![](/assets/q18b.png)
 
