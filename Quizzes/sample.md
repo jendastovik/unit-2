@@ -7,5 +7,3 @@
 ## Output
 ![](/assets/qx.png)
 
-## Flowchart
-![](/flowCharts/qx.png)
