@@ -16,3 +16,6 @@ def get_l3tt3rs(msg):
 
 ## Output
 ![](/assets/q17.png)
+
+## B part
+![](/assets/bpart/q17.png)

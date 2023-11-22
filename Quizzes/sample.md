@@ -7,3 +7,5 @@
 ## Output
 ![](/assets/qx.png)
 
+## B part
+![](/assets/bpart/qx.png)

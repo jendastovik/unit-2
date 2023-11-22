@@ -28,3 +28,5 @@ plt.show()
 ## Output
 ![](/assets/q21.png)
 
+## B part
+![](/assets/bpart/q21.png)

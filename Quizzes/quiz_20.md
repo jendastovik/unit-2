@@ -17,3 +17,6 @@ def procedure(n, m, s):
 
 ## Output
 ![](/assets/q20.png)
+
+## B part
+![](/assets/bpart/q20.png)

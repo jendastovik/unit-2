@@ -39,3 +39,5 @@ def print_truth_table(letters, collums):
 ### print_truth_table(truth_table_sized(5))
 ![](/assets/q18b.png)
 
+## B part
+![](/assets/bpart/q18.png)

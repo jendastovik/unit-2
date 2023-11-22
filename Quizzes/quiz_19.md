@@ -18,3 +18,5 @@ def equatation():
 ## Output
 ![](/assets/q19.png)
 
+## B part
+![](/assets/bpart/q19.png)

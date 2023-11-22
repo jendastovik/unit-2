@@ -8,3 +8,6 @@ data["title"] = "quiz data science"
 
 ## Output
 ![](/assets/q26.png)
+
+## B part
+![](/assets/bpart/q26.png)      
