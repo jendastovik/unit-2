@@ -1,15 +1,27 @@
 import serial
 import matplotlib.pyplot as plt
+import adafruit_dht 
 
-ardruino = serial.Serial(port="COM6", baudrate=9600, timeout=0.1)
+dht_device = adafruit_dht.DHT11
+temp, hum = adafruit_dht.read_retry(dht_device, 13)
+
+print(f"temp: {temp}, hum: {hum}")
+
+
+ardruino = serial.Serial(port="COM5", baudrate=9600, timeout=0.1)
 temperatures = []
 humidities = []
 
+
+
 def read():
     data = ""
-    while len(data) < 1:
+    while not data:
         data = ardruino.readline()
+    print(data)
     return data.decode("utf-8")
+
+print(read())
 
 while True:
     print(read())
